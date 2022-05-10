@@ -113,27 +113,27 @@
       "value": "up",
       "required": false
     },
-    "TELEGRAM_LEECH_COMMAND_G": {
+    "TELEGRAM_LEECH_COMMAND": {
       "description": "Enter your custom tleech command like /tleech1@urgroupname and so on. Default is /tleech",
       "value": "tup",
       "required": false
     },
     "YTDL_COMMAND": {
-      "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
+      "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl",
       "value": "watch",
       "required": false
     },
-    "PYTDL_COMMAND_G": {
-      "description": "Enter your custom pytdl command like pytdl1@urgroupname and so on. Default is /pytdl.",
-      "value": "pwatch",
+    "GYTDL_COMMAND": {
+      "description": "Enter your custom gytdl command like gytdl1@urgroupname and so on. Default is /gytdl",
+      "value": "yt",
       "required": false
     },
     "CANCEL_COMMAND_G": {
-      "description": "Enter your custom cancel command like cancel@urgroupname and so on. Default is /cancel.",
+      "description": "Enter your custom cancel command like cancel@urgroupname and so on. Default is /cancel",
       "required": false
     },
     "GET_SIZE_G": {
-      "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
+      "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize",
       "value": "mb",
       "required": false
     },
