@@ -88,6 +88,11 @@
       "value": "https://bts420-bot.helloiamjahid.workers.dev/0:",
       "required": false
     },
+    "GLEECH_ZIP_COMMAND": {
+      "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
+      "value": "zip",
+      "required": false
+    },
     "GLEECH_UNZIP_COMMAND": {
       "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
       "value": "unzip",
