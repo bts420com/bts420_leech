@@ -98,6 +98,11 @@
       "value": "tzip",
       "required": false
     },
+    "STATUS_COMMAND": {
+      "description": "Enter your custom status command like /status1@urgroupname and so on. Default is /status",
+      "value": "check",
+      "required": false
+    },
     "LEECH_UNZIP_COMMAND": {
       "description": "Enter your custom extract command like /extract1@urgroupname and so on. Default is /extract",
       "value": "tunzip",
