@@ -103,6 +103,11 @@
       "value": "check",
       "required": false
     },
+    "TELEGRAM_LEECH_UNZIP_COMMAND": {
+      "description": "Enter your custom tleechunzip command like /tleechunzip1@urgroupname and so on. Default is /tleechunzip",
+      "value": "tunzipup",
+      "required": false
+    },
     "LEECH_UNZIP_COMMAND": {
       "description": "Enter your custom extract command like /extract1@urgroupname and so on. Default is /extract",
       "value": "tunzip",
