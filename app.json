@@ -133,6 +133,11 @@
       "value": "yt",
       "required": false
     },
+    "GPYTDL_COMMAND": {
+      "description": "Enter your custom gpytdl command like gpytdl1@urgroupname and so on. Default is /gpytdl",
+      "value": "pyt",
+      "required": false
+    },
     "CANCEL_COMMAND_G": {
       "description": "Enter your custom cancel command like cancel@urgroupname and so on. Default is /cancel",
       "required": false
