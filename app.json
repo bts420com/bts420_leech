@@ -88,6 +88,11 @@
       "value": "https://bts420-bot.helloiamjahid.workers.dev/0:",
       "required": false
     },
+    "RCLONE_COMMAND": {
+      "description": "Enter your custom rclone command like /rclone1@urgroupname and so on. Default is /rclone",
+      "value": "folders",
+      "required": false
+    },
     "LEECH_ZIP_COMMAND": {
       "description": "Enter your custom archive command like /archive1@urgroupname and so on. Default is /archive",
       "value": "tzip",
