@@ -80,7 +80,7 @@
     },
     "CLEAR_THUMBNAIL": {
       "description": "For Delete Thumbnail Command. Default is /clearthumbnail",
-      clearthumb
+      "value": "clearthumb",
       "required": false
     },
     "INDEX_LINK": {
