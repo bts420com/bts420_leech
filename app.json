@@ -49,7 +49,7 @@
     },
     "EDIT_SLEEP_TIME_OUT": {
       "description": "should be an integer. Number of seconds to wait before editing a message.",
-      "value": "3",
+      "value": "1",
       "required": false
     },
     "MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START": {
@@ -70,14 +70,17 @@
     },
     "LEECH_COMMAND": {
       "description": "Enter your custom leech command like /leech@botname and so on. Default is /leech",
+      "value": "start",
       "required": false
     },
     "SAVE_THUMBNAIL": {
       "description": "For custom thumbnail Command. default is /savethumbnail",
+      "value": "savethumb",
       "required": false
     },
     "CLEAR_THUMBNAIL": {
       "description": "For Delete Thumbnail Command. Default is /clearthumbnail",
+      clearthumb
       "required": false
     },
     "INDEX_LINK": {
@@ -85,16 +88,24 @@
       "value": "https://bts420-bot.helloiamjahid.workers.dev/0:",
       "required": false
     },
+    "GLEECH_UNZIP_COMMAND": {
+      "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
+      "value": "unzip",
+      "required": false
+    },
     "GLEECH_COMMAND": {
       "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
+      "value": "up",
       "required": false
     },
     "TELEGRAM_LEECH_COMMAND_G": {
       "description": "Enter your custom tleech command like /tleech1@urgroupname and so on. Default is /tleech",
+      "value": "tup",
       "required": false
     },
     "YTDL_COMMAND": {
       "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
+      "value": "",
       "required": false
     },
     "PYTDL_COMMAND_G": {
@@ -107,10 +118,11 @@
     },
     "GET_SIZE_G": {
       "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
+      "value": "mb",
       "required": false
     },
     "RCLONE_CONFIG": {
-      "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
+      "description": "Enter your copied text from rclone.conf",
       "required": false
     },
     "DESTINATION_FOLDER": {
