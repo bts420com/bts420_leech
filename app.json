@@ -21,15 +21,15 @@
       "description": "Get this value from https://my.telegram.org",
       "value": "cbb2e226d98cdd70a47d2f36ca2e7433"
     },
-    "BOT_TOKEN": {
+    "TG_BOT_TOKEN": {
       "description": "get this value from @BotFather",
       "value": "5302377568:AAH-Y2pHLOkibqoEPvzwVGVnn_f4-zNxlPQ"
     },
-    "GRP_ID": {
+    "AUTH_CHANNEL": {
       "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work., Put Group ID",
       "value": "-1001701546725"
     },
-    "USER_ID": {
+    "OWNER_ID": {
       "description": "should be an integer. ID of owner of bot",
       "value": "1938746738"
     },
